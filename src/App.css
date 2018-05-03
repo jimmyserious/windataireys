@@ -1,25 +1,25 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 20px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 50px;
+  padding: 5px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 0.75em;
 }
 
 .App-intro {
-  font-size: large;
+  font-size: small;
 }
 
 @keyframes App-logo-spin {
@@ -27,18 +27,32 @@
   to { transform: rotate(360deg); }
 }
 
-.windDetails p {
-  overflow: hidden;
+.windstationContainer{
+    margin: 20px;
+}
+
+.windStation{
+    border: 1px dashed #ddd;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.windDetails{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
 }
 
 .windDetails .label {
-  vertical-align: top;
-  float: left;
-  width: 40%;
+    vertical-align: top;
+    float: left;
+    width: 40%;
 }
 
 .windDetails .value{
-  vertical-align: top;
-  float: left;
-  width: 60%;
+    vertical-align: top;
+    float: left;
+    width: 60%;
 }
+

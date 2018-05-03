@@ -10,18 +10,23 @@ class App extends Component {
 			<img src={logo} className="App-logo" alt="logo" />
 			<h1 className="App-title">Wind At Aireys</h1>
 		</header>
-		<div className="windStation">
-	        <h3>Aireys Inlet</h3>
-			<ul class="windDetails">
-				<li>
-					<span class="label">Direction</span>
-					<span class="value">NW</span>
-				</li>
-				<li>
-					<span class="label">Speed </span>
-					<span class="value">10knts</span>
-				</li>
-			</ul>
+		<div class="windstationContainer">
+			<div className="windStation">
+		        <ul class="windDetails">
+					<li>
+						<span class="label">Station</span>
+						<span class="value">Aireys Inlet</span>
+					</li>
+					<li>
+						<span class="label">Direction</span>
+						<span class="value">NW</span>
+					</li>
+					<li>
+						<span class="label">Speed </span>
+						<span class="value">10knts</span>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
     );
