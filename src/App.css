@@ -26,3 +26,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.windDetails p {
+  overflow: hidden;
+}
+
+.windDetails .label {
+  vertical-align: top;
+  float: left;
+  width: 40%;
+}
+
+.windDetails .value{
+  vertical-align: top;
+  float: left;
+  width: 60%;
+}
